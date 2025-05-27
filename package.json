@@ -1,0 +1,16 @@
+{
+  "name": "telegram-user-client",
+  "version": "1.0.0",
+  "description": "Enviar mensajes con usuario real de Telegram usando gramjs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "input": "^1.0.1",
+    "puppeteer": "^24.9.0",
+    "telegram": "^2.26.22"
+  }
+}
